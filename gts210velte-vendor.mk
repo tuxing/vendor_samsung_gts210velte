@@ -20,5 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts210vewifi/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/samsung/gts210vewifi/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
     vendor/samsung/gts210vewifi/proprietary/vendor/lib64/libyasalgo.so:system/vendor/lib64/libyasalgo.so \
-    vendor/samsung/gts210vewifi/proprietary/lib/libsec-ril.so \
-    vendor/samsung/gts210vewifi/proprietary/lib64/libsec-ril.so
+    vendor/samsung/gts210vewifi/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/gts210vewifi/proprietary/lib64/libsec-ril.so:system/lib64/libsec-ril.so \
+    vendor/samsung/gts210vewifi/proprietary/lib64/libsecril-client.so:system/lib64/libsecril-client.so

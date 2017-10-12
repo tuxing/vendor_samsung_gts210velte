@@ -21,7 +21,7 @@ ifeq ($(TARGET_DEVICE),gts210velte)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libreference-ril
+LOCAL_MODULE := libril
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES_64 := proprietary/lib64/libril.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libril.so

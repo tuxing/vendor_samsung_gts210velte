@@ -23,3 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts210velte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/gts210velte/proprietary/lib64/libsec-ril.so:system/lib64/libsec-ril.so \
     vendor/samsung/gts210velte/proprietary/lib64/libsecril-client.so:system/lib64/libsecril-client.so
+
+PRODUCT_PACKAGES += \
+    libril
